@@ -23,7 +23,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
-	function about() {
+	/*function about() {
 		$this->load->view('about');
-	}
+	}*/
+
+	/*public function news($page, $category)
+	{
+		var_dump($page);
+		var_dump($category);
+	}*/
 }
